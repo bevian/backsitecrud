@@ -38,10 +38,10 @@
         <input id="btn-submit" type="submit" value="Criar Notícia">
       </div>
       <div class="full-box">
-        <input id="btn-submit" type="submit" onclick="window.open('../backsitecrud/index.php')" value="Voltar">
+        <input id="btn-submit" type="button" onclick="window.open('../backsitecrud/index.php')" value="Voltar">
       </div>
       <div class="full-box">
-        <input id="btn-submit" type="submit" onclick="window.open('../backsitecrud/consulta.php')" name="enviar" value="Visualizar Notícias">
+        <input id="btn-submit" type="button" onclick="window.open('../backsitecrud/consulta.php')" name="enviar" value="Visualizar Notícias">
       </div>
     </form>
   </div>
