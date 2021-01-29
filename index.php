@@ -41,7 +41,7 @@
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Acessar seu sistema</h1>
                                     </div>
-                                    <form class="user" action="home.php" method="post">
+                                    <form class="user" action="home.php" method="POST">
                                         <div class="form-group">
                                             <input type="text" class="form-control form-control-user"
                                                 id="exampleInputEmail" aria-describedby="emailHelp" name="username"
@@ -51,10 +51,10 @@
                                             <input type="password" class="form-control form-control-user"
                                                 id="exampleInputPassword" placeholder="Senha">
                                         </div>
-                                       
-                                        <a href="home.php" class="btn btn-primary btn-user btn-block">
-                                            Entrar 
-                                        </a>
+                                        <div class="full-box">
+                                            <input class="btn btn-primary btn-user btn-block" id="btn-submit" type="submit" name="enviar" value="Entrar">
+                                        </div>
+                                      
                                         <hr>
                                     </form>
                                    
